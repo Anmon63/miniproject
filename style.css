@@ -1,0 +1,108 @@
+    body {
+        background-image: "download1.png";
+        font-family: Arial, sans-serif;
+        margin: 500;
+        padding: 100;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: center;
+        padding: 20px;
+    }
+    
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    
+    form {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px auto;
+        /* Center the form horizontally */
+        max-width: 400px;
+        /* Set a max-width to prevent the form from stretching too wide */
+        border: 2px solid #f37806;
+        /* Add a border */
+        box-sizing: border-box;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+        color: #07b5fa;
+    }
+    
+    .input-group {
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        /* Set the width to control the size of the centered text */
+    }
+    
+    .input-group p,
+    .input-group button {
+        display: inline-block;
+        /* or display: inline; */
+    }
+    
+    .input-group {
+        text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        display: block;
+        margin-bottom: 20px;
+        width: 50%;
+        border: 2px solid #f37806;
+    }
+    
+    input[type="submit"] {
+        background-color: #4caf50;
+        color: #e90b0b;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    .error-message {
+        color: #ff0000;
+        margin-bottom: 10px;
+    }
+    
+    .btn {
+        /* Existing styles... */
+        background-color: palevioletred;
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+        color: green;
+        animation: shake 0.5s linear infinite;
+        /* Add animation properties */
+    }
+    
+    @keyframes shake {
+        0% {
+            transform: translateX(0px);
+        }
+        25% {
+            transform: translateX(-5px);
+        }
+        50% {
+            transform: translateX(10px);
+        }
+        75% {
+            transform: translateX(-5px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
